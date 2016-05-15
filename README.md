@@ -4,9 +4,9 @@ A tag editor like wechat
 
 ## Functions
 
-* show and edit mode you can choice by set `editable`
-* you can custome some view attr, like `tagSpace`, `tagFontSize`, `padding`, eg.
-* you can custome tag style by rewrite delegate funcions
+* show and edit mode you can choice by set `editable`.
+* you can custome some view attr, like `tagSpace`, `tagFontSize`, `padding`.
+* you can custome tag style by rewrite delegate funcions.
 
 ```obj-c
 // MKTagView can edit, normal style
