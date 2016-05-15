@@ -8,7 +8,7 @@ A tag editor like wechat
 * you can custome some view attr, like `tagSpace`, `tagFontSize`, `padding`, eg.
 * you can custome tag style by rewrite delegate funcions
 
-```
+```obj-c
 // MKTagView can edit, normal style
 - (void)mkTagView:(MKTagView *)tagview editableStyle:(MKTagLabel *)tagLabel;
 // MKTagView can edit, editing style
@@ -24,7 +24,7 @@ A tag editor like wechat
 
 * if you want two editors data linkage, you can write delegate Functions
 
-```
+```obj-c
 // tagview size changed
 - (void)mkTagView:(MKTagView *)tagview sizeChange:(CGRect)newSize;
 // onselect tag, use tagLabel.style to judge label status
