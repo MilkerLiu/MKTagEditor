@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, MKTagStyle) {
 - (void)removeTags:(NSArray *)tags;
 
 - (void)selectTag:(NSString *)tag;
-- (void)selectTags:(NSString *)tags;
+- (void)selectTags:(NSArray *)tags;
 
 - (void)unSelectTag:(NSString *)tag;
 - (void)unSelectTags:(NSArray *)tags;
