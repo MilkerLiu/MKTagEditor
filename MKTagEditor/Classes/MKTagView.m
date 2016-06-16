@@ -32,6 +32,9 @@
 }
 
 - (void)addTag:(NSString *)tag {
+    if([self isEmptyString:tag]) {
+        return;
+    }
     if([self isExistTag:tag]) {
         return;
     }
